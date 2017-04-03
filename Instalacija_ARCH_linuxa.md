@@ -75,7 +75,7 @@ gdisk /dev/sdX ## X je ime hard-disk i varira
 ## Komdanda p stampa tabelu svih particija na disku
 ## Ako smo zadovoljni tabelom, treba da upisemo na disk sve sto smo uradili i to preko komade "w"
 ## Particije su napravljene ali treba im dodeliti FileSystem tip
-## Komanda mkfs upravo to radimo
+## Komandom mkfs upravo to radimo
 
 mkfs.ext4 -L HOME /dev/sdX
 
